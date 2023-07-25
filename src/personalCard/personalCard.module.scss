@@ -1,0 +1,105 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: url('../asset/3123124\ copy\ copy\ 3.png');
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style-type: none;
+}
+.Personal{
+width: 73.8%;
+height: 733px;
+margin: auto;
+border-radius: 10px;
+border: 1px solid #000000;
+margin-top: 110px;
+margin-left: 320px;
+text-align: center;
+position: relative;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.019), rgba(0, 0, 0, 0.013)),
+linear-gradient(0deg, rgba(255, 255, 255, 0.201), rgba(255, 255, 255, 0.201));
+transition: 0.5s ease-in-out;
+
+
+}
+
+.Personal_Card{
+    width: 200px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 46.93px;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 37px;
+  left: 26px;
+}
+
+.Personal_info{
+    width: auto;
+  height: 178px;
+  padding-top: 45px;
+  
+}
+
+.Personal_name{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 46.93px;
+    color: white;
+}
+
+.Person_block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    padding-inline: 45px;
+    flex-wrap: wrap;
+}
+
+.block_desc{
+    width: auto;
+  height: auto;
+  margin: 0px;
+}
+.block_list{
+    width: 290px; 
+    height: auto; 
+    border-radius: 10px; 
+    padding: 4px 62px; 
+    margin-bottom: 24px;
+    background: rgba(32, 115, 219, 1);
+    color: white;
+    font-family: Inter, sans-serif; 
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 47px; 
+    letter-spacing: 0em;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.military_registration{
+    width: 73.8%;
+height: 365px;
+margin: auto;
+border-radius: 10px;
+border: 1px solid #000000;
+margin-top: 210px;
+margin-left: 320px;
+text-align: center;
+position: relative;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.019), rgba(0, 0, 0, 0.013)),
+linear-gradient(0deg, rgba(255, 255, 255, 0.201), rgba(255, 255, 255, 0.201));
+transition: 0.5s ease-in-out;
+}
