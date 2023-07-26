@@ -1,0 +1,184 @@
+
+
+
+
+
+.Subdivision{
+    width: 72.6%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin-top: 305px;
+    margin-left: 325px;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.019), rgba(0, 0, 0, 0.013)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.201), rgba(255, 255, 255, 0.201));
+    transition: 0.5s ease-in-out; 
+    padding: 10px;
+}
+
+.SubdivisionHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.header_left{
+    display: flex;
+    padding-left: 20px;
+    width: 40%;
+    // justify-content: space-between;
+}
+
+.header_left_info{
+  
+    color: white;
+    font-family: Inter, sans-serif; 
+    font-size: 24px;
+    // font-weight: 400; 
+    // line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.header_left_img{
+    width: 30px;
+    height: 16px;
+   margin-top: 7px;
+   cursor: pointer;
+}
+
+.headerRight_info{
+    width: 118px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    text-align: right; 
+    text-decoration:underline;
+    color: white;
+    padding-right: 14px;
+    cursor: pointer;
+}
+
+.Subdivision_desc{
+    width: 70%;
+    // height: 80%;
+    margin: auto;
+    margin-left: 17%;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Subdivision_list{
+    width: 100%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subdivision_title{
+    width: 60%;
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Subdivision_info{
+    width: 30%;
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+   
+}
+
+.Subdivision_info_change_inp{
+    width: 100px;
+    height: 35px; 
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3); 
+    padding: 4px 62px 4px 15px; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+    font-size: 18px;
+    margin-top: 0;
+}
+.Subdivision_info_change_inp:focus{
+    outline :none
+
+}
+
+.change_btn{
+    width: 320px;
+    display: flex;
+    justify-content: end  ;
+    margin-top:50px;
+    padding-bottom: 10px;
+}
+.change_btn_Cancel{
+width: 127px; 
+height: 47px; 
+
+border-radius: 10px; 
+padding: 4px 25px; 
+border: none;
+cursor: pointer;
+background-color: rgba(255, 255, 255, 1); }
+
+.change_btn_save{
+width: 170px; 
+height: 47px; 
+border-radius: 10px; 
+padding: 4px 25px; 
+border: none;
+margin-left: 10px;
+background: rgba(32, 115, 219, 1);
+cursor: pointer;
+}
+
+
+@media all and (max-width: 870px){
+    .Subdivision{
+        margin-left: 13%;
+        margin-top: 6%;
+    }
+    .Subdivision_true{
+        margin-left: 13%;
+        margin-top: 6%;
+
+    }
+    .SubdivisionHeader{
+        display: block;
+    }
+}
+
+@media all and (max-width: 450px){
+    
+    .change_btn_add{
+        margin-left: 0;
+    }
+    .change_btn{
+        display: block;
+    }
+    .change_btn_save{
+       width: 200px;
+       margin-top: 10px;
+    }
+    .Subdivision_desc_footer{
+        margin-left: 0;
+    }
+    .Subdivision_info_change_inp{
+        width: 130px;
+    }
+    .header_left_info{
+        font-size: 17px
+    }
+    .Subdivision_desc{
+        margin-left: 9%;
+    }
+}

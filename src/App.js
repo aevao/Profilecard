@@ -12,13 +12,14 @@ import Location from './personalCard/components/Location/Location'
 import Education from './personalCard/components/Education/Education'
 import Activity from './personalCard/components/activity/Activity'
 import Prize from './personalCard/components/prize/Prize'
+import Subdivision from './personalCard/components/Subdivisions/Subdivisions'
 
 
 const App = () => {
   return (
     <>
   
-    <CardPersonal/>
+    {/* <CardPersonal/> */}
     {/* <Military/> */}
     {/* <Rank/> */}
     {/* <Arriv/> */}
@@ -31,7 +32,7 @@ const App = () => {
     {/* <Education/> */}
     {/* <Activity/> */}
     {/* <Prize/> */}
-
+    <Subdivision/>
     </>
   )
 }
