@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './personalCard.module.scss'
-import phooto from '../asset/personalPhoto.png'
+import phooto from './asset/personalPhoto.png'
 const CardPersonal = () => {
     const [main,setMain] = useState(true)
   return (
